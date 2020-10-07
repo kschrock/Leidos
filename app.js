@@ -42,6 +42,6 @@ app.use(express.static("Public"));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 // This servers all the node_modules in the main directory
 
-app.listen(3000, () =>
-console.log('Server running on port 3000')
+app.listen(PORT, () =>
+console.log('Server running on port 5000')
 );
